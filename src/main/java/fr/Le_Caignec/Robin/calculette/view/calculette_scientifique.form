@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" min="-2" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="33" red="33" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="resultat" alignment="0" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="num_7" alignment="0" pref="93" max="32767" attributes="0"/>
+                              <Component id="num_4" alignment="0" max="32767" attributes="0"/>
+                              <Component id="num_1" alignment="0" max="32767" attributes="0"/>
+                              <Component id="clear" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="num_8" alignment="1" min="-2" pref="93" max="-2" attributes="0"/>
+                              <Component id="modulo" alignment="1" min="-2" pref="91" max="-2" attributes="0"/>
+                              <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                  <Component id="num_2" alignment="0" min="-2" pref="90" max="-2" attributes="0"/>
+                                  <Component id="num_5" alignment="1" min="-2" pref="90" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                                  <Component id="signe" min="-2" pref="91" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="factorielle" min="-2" pref="93" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="fois" min="-2" pref="91" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="num_6" alignment="1" pref="93" max="32767" attributes="0"/>
+                                      <Component id="num_9" alignment="1" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="sinus" max="32767" attributes="0"/>
+                                      <Component id="cosinus" pref="93" max="32767" attributes="0"/>
+                                      <Component id="tangente" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="div" max="32767" attributes="0"/>
+                                              <Component id="plus" min="-2" pref="88" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                          <Component id="moins" min="-2" pref="91" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="201" max="-2" attributes="0"/>
+                                  <Component id="num_3" min="-2" pref="91" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="num_0" min="-2" pref="189" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="point" min="-2" pref="94" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="egale" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="standard" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="133" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                  <Component id="standard" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="resultat" min="-2" pref="42" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="clear" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="signe" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="fois" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="modulo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="factorielle" alignment="3" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="num_8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="num_9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="num_7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="moins" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="sinus" alignment="3" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="num_5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="num_4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="num_6" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                      <Component id="plus" alignment="3" max="32767" attributes="0"/>
+                      <Component id="cosinus" alignment="3" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="num_1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="num_2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="num_3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="div" alignment="3" max="32767" attributes="0"/>
+                      <Component id="tangente" alignment="3" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                          <Component id="num_0" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="point" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="egale" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="num_6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="6"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="num_6ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="ActionListener_chiffres num_6ActionListener = new ActionListener_chiffres(this);&#xa;num_6.addActionListener( num_6ActionListener );"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JTextField" name="resultat">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+            <Property name="text" type="java.lang.String" value="0"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="resultatActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="ActionListener_operation resultatActionListener = new ActionListener_operation(this);&#xa;resultat.addActionListener( resultatActionListener );"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="num_1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="1"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="num_1ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="ActionListener_chiffres num_1ActionListener = new ActionListener_chiffres(this);&#xa;num_1.addActionListener( num_1ActionListener );"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="clear">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="99" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="A/C"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="clearActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="ActionListener_operation clearActionListener = new ActionListener_operation(this);&#xa;clear.addActionListener( clearActionListener );"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="num_4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="4"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="num_4ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="ActionListener_chiffres num_4ActionListener = new ActionListener_chiffres(this);&#xa;num_4.addActionListener( num_4ActionListener );"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="num_0">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="num_0ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="ActionListener_chiffres num_0ActionListener = new ActionListener_chiffres(this);&#xa;num_0.addActionListener( num_0ActionListener );"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="signe">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="99" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="+/-"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="signeActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="ActionListener_operation signeActionListener = new ActionListener_operation(this);&#xa;signe.addActionListener( signeActionListener );"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="num_5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="5"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="num_5ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="ActionListener_chiffres num_5ActionListener = new ActionListener_chiffres(this);&#xa;num_5.addActionListener( num_5ActionListener );"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="num_2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="2"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="num_2ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="ActionListener_chiffres num_2ActionListener = new ActionListener_chiffres(this);&#xa;num_2.addActionListener( num_2ActionListener );"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="sinus">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="99" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="sin"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sinusActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="ActionListener_operation sinusActionListener = new ActionListener_operation(this);&#xa;sinus.addActionListener( sinusActionListener );"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="fois">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="99" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="*"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="foisActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="ActionListener_operation foisActionListener = new ActionListener_operation(this);&#xa;fois.addActionListener( foisActionListener );"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="moins">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="99" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="-"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="moinsActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="ActionListener_operation moinsActionListener = new ActionListener_operation(this);&#xa;moins.addActionListener( moinsActionListener );"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="egale">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="99" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="="/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="egaleActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="ActionListener_operation egaleActionListener = new ActionListener_operation(this);&#xa;egale.addActionListener( egaleActionListener );"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="num_3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="3"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="num_3ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="ActionListener_chiffres num_3ActionListener = new ActionListener_chiffres(this);&#xa;num_3.addActionListener( num_3ActionListener );"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="point">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="."/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="pointActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="ActionListener_operation pointActionListener = new ActionListener_operation(this);&#xa;point.addActionListener( pointActionListener );"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="standard">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Switch to Calculette Standard"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="standardActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="num_8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="8"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="num_8ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="ActionListener_chiffres num_8ActionListener = new ActionListener_chiffres(this);&#xa;num_8.addActionListener( num_8ActionListener );"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="num_9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="9"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="num_9ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="ActionListener_chiffres num_9ActionListener = new ActionListener_chiffres(this);&#xa;num_9.addActionListener( num_9ActionListener );"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="num_7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="7"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="num_7ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="ActionListener_chiffres num_7ActionListener = new ActionListener_chiffres(this);&#xa;num_7.addActionListener( num_7ActionListener );"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="div">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="99" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="/"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="divActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="ActionListener_operation divActionListener = new ActionListener_operation(this);&#xa;div.addActionListener( divActionListener );"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="modulo">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="99" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="%"/>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="moduloActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="ActionListener_operation moduloActionListener = new ActionListener_operation(this);&#xa;modulo.addActionListener( moduloActionListener );"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="tangente">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="99" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="tan"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tangenteActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="ActionListener_operation tangenteActionListener = new ActionListener_operation(this);&#xa;tangente.addActionListener( tangenteActionListener );"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="plus">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="99" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="+"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="plusActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="ActionListener_operation plusActionListener = new ActionListener_operation(this);&#xa;plus.addActionListener( plusActionListener );"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="factorielle">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="99" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="x!"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="factorielleActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="ActionListener_operation factorielleActionListener = new ActionListener_operation(this);&#xa;factorielle.addActionListener( factorielleActionListener );"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="cosinus">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="99" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="cos"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cosinusActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="ActionListener_operation cosinusActionListener = new ActionListener_operation(this);&#xa;cosinus.addActionListener( cosinusActionListener );"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
